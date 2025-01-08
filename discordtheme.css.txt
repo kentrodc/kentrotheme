@@ -1,0 +1,24 @@
+/* Arka plan resmini uygulama */
+body {
+  background-image: url('https://i.imgur.com/AG3pwKi.jpeg'); /* Arka plan resmi */
+  background-size: cover; /* Resmi ekran boyutuna göre ayarlama */
+  background-position: center center; /* Resmi ortalama */
+  background-attachment: fixed; /* Arka planın sabit kalmasını sağlar */
+  margin: 0;
+  font-family: 'Whitney', 'Helvetica', 'Arial', sans-serif; /* Discord'un varsayılan fontları */
+}
+
+/* Sayfa içeriği için stil */
+.container {
+  height: 100vh; /* Ekranın tamamını kaplar */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white; /* Yazı rengini beyaz yapar */
+}
+
+h1 {
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Metni vurgulamak için gölge ekler */
+}
