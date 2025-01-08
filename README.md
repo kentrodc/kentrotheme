@@ -1,0 +1,2 @@
+# kentrotheme
+discord vencord theme
